@@ -30,7 +30,11 @@
 			"Enabled": true
 		},
 		{
+
 			"Name": "MetaHumanCharacter",
+
+			"Name": "MotionTrajectory",
+
 			"Enabled": true
 		}
 	],
