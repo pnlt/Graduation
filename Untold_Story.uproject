@@ -30,14 +30,21 @@
 			"Enabled": true
 		},
 		{
-    			"Name": "MetaHumanCharacter",
-    			"Enabled": true
-  		},
-  		{
-    			"Name": "MotionTrajectory",
-    			"Enabled": true
-  		}
-		
+			"Name": "MetaHumanCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionTrajectory",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationLocomotionLibrary",
+			"Enabled": true
+		}
 	],
 	"TargetPlatforms": [
 		"Windows"
