@@ -64,6 +64,14 @@
 		{
 			"Name": "PCGInstancedActorsInterop",
 			"Enabled": true
+		},
+    {
+			"Name": "MotionWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationLocomotionLibrary",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
