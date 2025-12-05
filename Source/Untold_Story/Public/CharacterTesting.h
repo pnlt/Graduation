@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "nvaim.h"
+//#include "nvaim.h"
 #include "CharacterTesting.generated.h"
 
 /*typedef nvaim::Result (*FnvaimInit) (

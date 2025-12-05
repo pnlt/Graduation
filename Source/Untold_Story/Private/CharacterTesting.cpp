@@ -15,7 +15,7 @@ ACharacterTesting::ACharacterTesting()
 void ACharacterTesting::BeginPlay()
 {
 	Super::BeginPlay();
-	nvaim::Preferences preferences{};
+	//nvaim::Preferences preferences{};
 	
 	/*
 	 *const TCHAR* DLLName = AIM_CORE_BINARY_NAME;
@@ -63,4 +63,3 @@ void ACharacterTesting::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
-
