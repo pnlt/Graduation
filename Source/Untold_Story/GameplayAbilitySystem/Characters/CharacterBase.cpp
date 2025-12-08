@@ -4,6 +4,7 @@
 #include "CharacterBase.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Untold_Story/GameplayAbilitySystem/AttributeSets/BasicAttributeSet.h"
 
 // Sets default values
 ACharacterBase::ACharacterBase()
@@ -34,6 +35,9 @@ ACharacterBase::ACharacterBase()
 	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
 	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
+
+	// Add the basic attribute set
+	BasicAttributeSet = CreateDefaultSubobject<UBasicAttributeSet>(TEXT("BasicAttributeeSet"));
 }
 
 // Called when the game starts or when spawned
