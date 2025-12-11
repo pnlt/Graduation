@@ -4,14 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-//#include "nvaim.h"
+#include "nvaim.h"
 #include "CharacterTesting.generated.h"
 
-/*typedef nvaim::Result (*FnvaimInit) (
+typedef nvaim::Result (*FnvaimInit) (
 const nvaim::Preferences& pref, 
 nvaim::PluginAndSystemInformation** pluginInfo, 
 uint64_t sdkVersion
-);*/
+);
 
 UCLASS()
 class UNTOLD_STORY_API ACharacterTesting : public ACharacter
@@ -24,8 +24,8 @@ public:
 
 protected:
 	// Called when the game starts or when spawned
-	//void* NvaimDllHandle = nullptr;
-	//FnvaimInit NvaimInitFuncPointer = nullptr;
+	void* NvaimDllHandle = nullptr;
+	FnvaimInit NvaimInitFuncPointer = nullptr;
 	
 	virtual void BeginPlay() override;
 
