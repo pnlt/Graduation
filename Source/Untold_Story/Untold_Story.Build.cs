@@ -19,6 +19,7 @@ public class Untold_Story : ModuleRules
 		PrivateDependencyModuleNames.AddRange(new[] { "GameplayAbilities",
 			"GameplayTasks",
 			"GameplayTags",
+			"Nvaim"
 		});
 
 		// Uncomment if you are using Slate UI
