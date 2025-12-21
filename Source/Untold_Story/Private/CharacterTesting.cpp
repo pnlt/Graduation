@@ -22,7 +22,7 @@ ACharacterTesting::ACharacterTesting()
 void ACharacterTesting::BeginPlay()
 {
 	Super::BeginPlay();
-	/*nvaim::Preferences preferences{};
+	nvaim::Preferences preferences{};
 	static const char* PluginPaths[] = {
 		"D:/Doan_Cat_Phu/Graduation/Plugins/NV_ACE_Reference/ThirdParty/Nvigi/Models"
 	};
@@ -59,7 +59,7 @@ void ACharacterTesting::BeginPlay()
 			);
 		}
 	}
-	nvaim::InferenceInstance* gptInstance = nullptr;
+	/*nvaim::InferenceInstance* gptInstance = nullptr;
 	
 	// Define NPC role in a system prompt
 	std::string npcPrompt = "You are a helpful NPC named TJ in a fantasy game.";
