@@ -13,13 +13,13 @@ public class Untold_Story : ModuleRules
 			"Core",
 			"CoreUObject",
 			"Engine",
-			"InputCore"
+			"InputCore",
+			"Nvaim"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new[] { "GameplayAbilities",
 			"GameplayTasks",
-			"GameplayTags",
-			"Nvaim"
+			"GameplayTags"
 		});
 
 		// Uncomment if you are using Slate UI
